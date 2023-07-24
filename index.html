@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tic-Tac-Toe(MinMax powered)</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="minmax.js"></script>
+		<script src="script.js"></script>
+
+	</head>
+	<body onload='run()'>
+		<section>
+			<h2>Tic Tac Toe</h2>
+			<ul>
+				<li>Play by clicking on board</li>
+				<li>You are 'O'</li>
+				<li>Click reload to play again</li>
+			</ul>
+			<h4 id='messagebox'></h4>
+		</section>
+		<div>
+			<button id='b00' onclick='playerMove(this)'>
+			</button>
+			<button id='b01' onclick='playerMove(this)'>
+			</button>
+			<button id='b02' onclick='playerMove(this)'>
+			</button>
+			<button id='b10' onclick='playerMove(this)'>
+			</button>
+			<button id='b11' onclick='playerMove(this)'>
+			</button>
+			<button id='b12' onclick='playerMove(this)'>
+			</button>
+			<button id='b20' onclick='playerMove(this)'>
+			</button>
+			<button id='b21' onclick='playerMove(this)'>
+			</button>
+			<button id='b22' onclick='playerMove(this)'>
+			</button>
+		</div>
+	</body>
+</html>
